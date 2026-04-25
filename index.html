@@ -26,6 +26,7 @@ header .logo {
     left: 20px;
     width: 250px;
     height: 150px;
+    object-fit: contain;
 }
 
 header h1 {
@@ -70,6 +71,14 @@ h2 {
     gap: 20px;
 }
 
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .card {
     border: 1px solid #eee;
     padding: 20px;
@@ -106,25 +115,25 @@ position: relative;
 <div class="services">
 
 <div class="card">
-<img src="large-item.jpeg" style="width:100%; border-radius:10px;">
+<img src="large-item.jpeg" alt="Personal Large Item">
 <h3>Personal Large Item</h3>
 <p>Door-to-door delivery for bulky goods such as furniture and oversized cargo.</p>
 </div>
 
 <div class="card">
-<img src="lcl.jpg" style="width:100%; border-radius:10px;">
+<img src="lcl.jpg" alt="Commercial Cargo">
 <h3>Commercial Cargo</h3>
 <p>From full container loads to smaller LCL shipments, we offer flexible and efficient solutions tailored to your business needs.</p>
 </div>
 
 <div class="card">
-<img src="Customs Advisory.jpeg" style="width:100%; border-radius:10px;">
+<img src="Customs Advisory.jpeg" alt="Customs Advisory">
 <h3>Customs Advisory</h3>
 <p>Support with documentation, duties and smooth customs clearance.</p>
 </div>
 
 <div class="card">
-<img src="warehouse.jpg" style="width:100%; border-radius:10px;">
+<img src="warehouse.jpg" alt="3PL & Last-Mile">
 <h3>3PL & Last-Mile</h3>
 <p>Warehousing, pick & pack and final delivery across New Zealand.</p>
 </div>
